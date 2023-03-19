@@ -1,0 +1,86 @@
+/*navigation*/
+.backgroundnav{
+    position: absolute;
+    width: 1920px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+
+    background: #1613AA;
+    z-index: -1;
+}
+
+.icon{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 142px;
+    top: 50px;
+
+    background: url(icon.jpg);
+    border-radius: 20px;
+}
+.menu{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    left: 465px;
+    top: 50px;
+
+    background: #879AFF;
+    border-radius: 20px;
+}
+
+.about{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    left: 950px;
+    top: 50px;
+
+    background: #879AFF;
+    border-radius: 20px;
+}
+
+.authors{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    left: 1435px;
+    top: 50px;
+
+    background: #879AFF;
+    border-radius: 20px;
+}
+
+.aut{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.abo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.men{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}

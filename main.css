@@ -1,0 +1,160 @@
+/*aside*/
+.asideheader{
+    position: absolute;
+    width: 485px;
+    height: 151px;
+    left: 1435px;
+    top: 285px;
+
+    font-family: 'Rasa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.asidetext{
+    position: absolute;
+    width: 485px;
+    height: 995px;
+    left: 1435px;
+    top: 462px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.asidebackground{
+    position: absolute;
+    width: 485px;
+    height: 1210px;
+    left: 1435px;
+    top: 250px;
+    z-index: -1;
+
+    background: #6A97EC;
+}
+/*sections*/
+/*Python*/
+#pbackgroundsection{
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    left: 142px;
+    top: 325px;
+
+    background: #DEDEDE;
+    border-radius: 20px;
+}
+#pythonimage{
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 174px;
+    top: 363px;
+
+    background: url(python3.png);
+    border-radius: 20px;
+}
+#pythonheader{
+    position: absolute;
+    width: 890px;
+    height: 225px;
+    left: 418px;
+    top: 363px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #5F90C9;
+}
+/*java*/
+#jbackgroundsection{
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    left: 142px;
+    top: 698px;
+    
+    background: #DEDEDE;
+    border-radius: 20px;
+}
+#javaimage{
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 174px;
+    top: 735px;
+    
+    background: url(java2.jpg);
+    border-radius: 20px;
+}
+#javaheader{
+    position: absolute;
+    width: 890px;
+    height: 225px;
+    left: 418px;
+    top: 755px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #5F90C9;
+}
+/*c#*/
+#cbackgroundsection{
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    left: 145px;
+    top: 1071px;
+    
+    background: #DEDEDE;
+    border-radius: 20px;
+}
+#cimage{
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 174px;
+    top: 1108px;
+    
+    background: url(c#);
+}
+#cheader{
+    position: absolute;
+    width: 890px;
+    height: 225px;
+    left: 418px;
+    top: 1108px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #5F90C9;
+}
