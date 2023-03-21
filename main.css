@@ -1,71 +1,28 @@
-/*aside*/
-.asideheader{
-    position: absolute;
-    width: 485px;
-    height: 151px;
-    left: 1435px;
-    top: 285px;
-
-    font-family: 'Rasa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-.asidetext{
-    position: absolute;
-    width: 485px;
-    height: 995px;
-    left: 1435px;
-    top: 462px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-.asidebackground{
-    position: absolute;
-    width: 485px;
-    height: 1210px;
-    left: 1435px;
-    top: 250px;
-    z-index: -1;
-
-    background: #6A97EC;
-}
 /*sections*/
 /*Python*/
 #pbackgroundsection{
     position: absolute;
-    width: 1200px;
+    width: 75%;
     height: 300px;
     left: 142px;
     top: 325px;
-
+    max-width: 1500px;
     background: #DEDEDE;
     border-radius: 20px;
 }
 #pythonimage{
     position: absolute;
-    width: 225px;
+    width: 14%;
     height: 225px;
     left: 174px;
     top: 363px;
-
+    max-width: 225px;
     background: url(python3.png);
     border-radius: 20px;
 }
 #pythonheader{
     position: absolute;
-    width: 890px;
+    width: 55%;
     height: 225px;
     left: 418px;
     top: 363px;
@@ -78,33 +35,38 @@
     display: flex;
     align-items: center;
     text-align: center;
-
+    transition: all 0.2s ease 0s;
     color: #5F90C9;
+}
+
+#pythonheader:hover{
+    color: rgb(0, 66, 173);
+    text-decoration: underline;
 }
 /*java*/
 #jbackgroundsection{
     position: absolute;
-    width: 1200px;
+    width: 75%;
     height: 300px;
     left: 142px;
     top: 698px;
-    
+    max-width: 1500px;
     background: #DEDEDE;
     border-radius: 20px;
 }
 #javaimage{
     position: absolute;
-    width: 225px;
+    width: 14%;
     height: 225px;
     left: 174px;
     top: 735px;
-    
+    max-width: 225px;
     background: url(java2.jpg);
     border-radius: 20px;
 }
 #javaheader{
     position: absolute;
-    width: 890px;
+    width: 55%;
     height: 225px;
     left: 418px;
     top: 755px;
@@ -120,21 +82,26 @@
     
     color: #5F90C9;
 }
+#javaheader:hover{
+    color: rgb(0, 66, 173);
+    text-decoration: underline;
+}
 /*c#*/
 #cbackgroundsection{
     position: absolute;
-    width: 1200px;
+    width: 75%;
     height: 300px;
     left: 145px;
     top: 1071px;
-    
+    max-width: 1500px;
     background: #DEDEDE;
     border-radius: 20px;
 }
 #cimage{
     position: absolute;
-    width: 225px;
+    width: 14%;
     height: 225px;
+    max-width: 225px;
     left: 174px;
     top: 1108px;
     
@@ -142,7 +109,7 @@
 }
 #cheader{
     position: absolute;
-    width: 890px;
+    width: 55%;
     height: 225px;
     left: 418px;
     top: 1108px;
@@ -157,4 +124,130 @@
     text-align: center;
     
     color: #5F90C9;
+}
+
+#cheader:hover{
+    color: rgb(0, 66, 173);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px){
+    #pbackgroundsection{
+        position: absolute;
+        width: 90%;
+        height: 150px;
+        left: 9px;
+        top: 261px;
+        
+        background: #DEDEDE;
+        border-radius: 20px;
+    }
+    #jbackgroundsection{
+        position: absolute;
+        width: 90%;
+        height: 150px;
+        left: 9px;
+        top: 426px;
+        
+        background: #DEDEDE;
+        border-radius: 20px;
+    }
+    #cbackgroundsection{
+        position: absolute;
+        width: 90%;
+        height: 160px;
+        left: 9px;
+        top: 593px;
+        
+        background: #DEDEDE;
+        border-radius: 20px;
+    }
+    #pythonimage{
+        position: absolute;
+        width: 26%;
+        min-width: 100px;
+        height: 120px;
+        left: 9px;
+        top: 276px;
+        
+        background: url(python3.png);
+        border-radius: 20px;
+        
+    }
+    #javaimage{
+        position: absolute;
+        width: 26%;
+        min-width: 100px;
+        height: 120px;
+        left: 9px;
+        top: 441px;
+        
+        background: url(java2.jpg);
+        border-radius: 20px;
+    }
+    #cimage{
+        position: absolute;
+        width: 26%;
+        min-width: 100px;
+        height: 120px;
+        left: 9px;
+        top: 613px;
+        
+        background: url(c#);
+    }
+    #pythonheader{
+        position: absolute;
+        width: 80%;
+        height: 120px;
+        left: 29%;
+        top: 276px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #5F90C9;
+    }
+    #javaheader{
+        position: absolute;
+        width: 80%;
+        height: 120px;
+        left: 29%;
+        top: 447px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #5F90C9;
+    }
+    #cheader{
+        position: absolute;
+        width: 80%;
+        height: 120px;
+        left: 29%;
+        top: 613px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #5F90C9;
+    }
+
 }
