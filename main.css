@@ -197,7 +197,7 @@
     }
     #pythonheader{
         position: absolute;
-        width: 80%;
+        width: 60%;
         height: 120px;
         left: 29%;
         top: 276px;
@@ -215,7 +215,7 @@
     }
     #javaheader{
         position: absolute;
-        width: 80%;
+        width: 60%;
         height: 120px;
         left: 29%;
         top: 447px;
@@ -233,7 +233,7 @@
     }
     #cheader{
         position: absolute;
-        width: 80%;
+        width: 60%;
         height: 120px;
         left: 29%;
         top: 613px;

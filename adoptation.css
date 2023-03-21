@@ -1,7 +1,0 @@
-#pbackground{
-    transition: all 5s ease 0s;
-}
-
-#pbackground:hover{
-    background-color: #e53935;
-}
