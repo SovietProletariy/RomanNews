@@ -27,7 +27,7 @@
     background: #B6B6B6;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .textfooter{
         position: absolute;
         width: 100%;
