@@ -85,6 +85,11 @@
     color: #FFFFFF;
 }
 
+.txt{
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1024px){
     .backgroundnav{
         position: absolute;
@@ -135,7 +140,7 @@
         min-width: 220px;
         height: 60px;
         left: 24%;
-        top: 154px;
+        top: 149px;
         
         background: #879AFF;
         border-radius: 20px;
@@ -172,6 +177,46 @@
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1921px){
+    .menu{
+        left: 24%
+    }
+    .about{
+        left: 48%;
+    }
+    .authors{
+        left: 72%;
+    }
+}
 
+@media screen and (min-width:1024px) and (max-width:1921px){
+    .icon{
+        left: 1%;
+    }
+    .menu{
+        left: 10%
+    }
+    .about{
+        left: 37%;
+    }
+    .authors{
+        left: 64%;
+    }    
+}
+
+/*ANIMATIONS*/
+
+.about:hover{
+    background-color: rgb(80, 98, 255);
+    transition: all 1s ease 0s;
+}
+
+.authors:hover{
+    background-color: rgb(80, 98, 255);
+    transition: all 1s ease 0s;
+}
+
+.menu:hover{
+    background-color: rgb(80, 98, 255);
+    transition: all 1s ease 0s;
 }

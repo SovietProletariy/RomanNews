@@ -6,7 +6,6 @@
     height: 300px;
     left: 142px;
     top: 325px;
-    max-width: 1500px;
     background: #DEDEDE;
     border-radius: 20px;
 }
@@ -51,7 +50,6 @@
     height: 300px;
     left: 142px;
     top: 698px;
-    max-width: 1500px;
     background: #DEDEDE;
     border-radius: 20px;
 }
@@ -95,7 +93,6 @@
     height: 300px;
     left: 145px;
     top: 1071px;
-    max-width: 1500px;
     background: #DEDEDE;
     border-radius: 20px;
 }
@@ -200,7 +197,7 @@
     }
     #pythonheader{
         position: absolute;
-        width: 60%;
+        width: 48%;
         height: 120px;
         left: 29%;
         top: 276px;
@@ -218,7 +215,7 @@
     }
     #javaheader{
         position: absolute;
-        width: 60%;
+        width: 48%;
         height: 120px;
         left: 29%;
         top: 447px;
@@ -236,7 +233,7 @@
     }
     #cheader{
         position: absolute;
-        width: 60%;
+        width: 48%;
         height: 120px;
         left: 29%;
         top: 613px;
@@ -255,6 +252,35 @@
 
 }
 
-@media screen and (min-width: 1024px){
-
+@media screen and (min-width: 1921px){
+    #pbackgroundsection{
+        left: 24%;
+        width: 55%;
+    }
+    #cbackgroundsection{
+        left: 24%;
+        width: 55%;
+    }
+    #jbackgroundsection{
+        left: 24%;
+        width: 55%;
+    }
+    #cheader{
+        left: 31%;
+    }
+    #javaheader{
+        left: 31%;
+    }
+    #pythonheader{
+        left: 31%;
+    }
+    #cimage{
+        left: 24%;
+    }
+    #pythonimage{
+        left: 24%;
+    }
+    #javaimage{
+        left: 24%;
+    }
 }
