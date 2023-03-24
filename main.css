@@ -199,7 +199,7 @@
         position: absolute;
         width: 48%;
         height: 120px;
-        left: 29%;
+        left: 34%;
         top: 276px;
         
         font-family: 'Roboto';
@@ -217,7 +217,7 @@
         position: absolute;
         width: 48%;
         height: 120px;
-        left: 29%;
+        left: 34%;
         top: 447px;
         
         font-family: 'Roboto';
@@ -235,7 +235,7 @@
         position: absolute;
         width: 48%;
         height: 120px;
-        left: 29%;
+        left: 34%;
         top: 613px;
         
         font-family: 'Roboto';
@@ -266,13 +266,16 @@
         width: 55%;
     }
     #cheader{
-        left: 31%;
+        left: 36%;
+        width: 30%;
     }
     #javaheader{
-        left: 31%;
+        left: 36%;
+        width: 30%;
     }
     #pythonheader{
-        left: 31%;
+        left: 36%;
+        width: 30%;
     }
     #cimage{
         left: 24%;

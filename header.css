@@ -103,11 +103,11 @@
     }
     .icon{
         position: absolute;
-        width: 11%;
-        height: 85px;
+        width: 10%;
+        height: 63px;
         left: 1%;
         top: 17px;
-        min-width: 85px;
+        min-width: 63px;
         background: url(icon.jpg);
         border-radius: 20px;
     }
@@ -203,7 +203,6 @@
         left: 64%;
     }    
 }
-
 /*ANIMATIONS*/
 
 .about:hover{
