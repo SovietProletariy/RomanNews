@@ -2,10 +2,10 @@
     position: absolute;
     width: 80%;
     height: auto;
-    max-height: 789px;
     left: 146.37px;
     top: 284px;
     max-width: 1640px;
+    max-height: 750px ;
     
     background: url(python3.jpg);
 }
